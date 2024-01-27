@@ -1,0 +1,79 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #3498db, #1abc9c);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#app {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+    background: linear-gradient(to right, #3498db, #1abc9c);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#dateTime {
+    margin: 15px 0;
+    color: #2ecc71;
+}
+
+input {
+    width: 70%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #3498db;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+    background: linear-gradient(to right, #3498db, #1abc9c);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    margin: 10px 0;
+    background: linear-gradient(to right, #ecf0f1, #bdc3c7);
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+li span {
+    flex-grow: 1;
+    margin-bottom: 10px;
+}
+
+li button {
+    background: linear-gradient(to right, #e74c3c, #c0392b);
+    color: #fff;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 3px;
+}

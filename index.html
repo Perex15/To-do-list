@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Perex To-Do List</title>
+</head>
+<body>
+    <div id="app">
+        <h1>Perex To-Do List</h1>
+        <div id="dateTime">
+            <span id="date"></span>
+            <span id="time"></span>
+        </div>
+        <input type="text" id="taskInput" placeholder="Add a new task">
+        <input type="datetime-local" id="dateTimeInput">
+        <button onclick="addTask()">Add Task</button>
+        <ul id="taskList"></ul>
+        <button onclick="speakTasks()">Speak Tasks</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
